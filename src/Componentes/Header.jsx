@@ -12,7 +12,7 @@ export default function Header() {
           <img src={logo} alt="logo" className={style.logo} />
           <div className={style.redes}>
             <img src={insta} alt='insta' className={style.insta}/>
-            <img src={what} alt='whatsapp' className={style.whatsapp}/>
+            <img   src={what} alt='whatsapp' className={style.whatsapp}/>
           </div>
         </div>
         
@@ -24,7 +24,7 @@ export default function Header() {
             <p>
                 Rutinas personalizadas para cada tipo de objetivo de manera presencial, semipresencial  y online. 
             </p>
-            <a href='/Contacto' className={style.contacto}>Contacto</a>
+            <a href='https://wa.me/5491126461216' target='blank' className={style.contacto}>Contacto</a>
           </div>
           <img src={img} alt="principal" className={style.imgPrincipal} />
         </div>
