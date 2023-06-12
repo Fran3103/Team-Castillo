@@ -1,0 +1,39 @@
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+
+@media screen and (min-width:720px) {
+
+    .testimonios{
+        flex-direction: row;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .testimonios{
+        max-width: 800px;
+        gap: 50px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .testimonios{
+        
+        display: flex;
+        justify-content: center;
+        gap: 85px;
+        max-width: 1100px;
+        width: 100%;
+        margin-left: 110px;
+    }
+}

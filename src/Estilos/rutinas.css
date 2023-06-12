@@ -1,0 +1,38 @@
+.rutinas{
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width:720px) {
+
+    .rutinas{
+        flex-direction: row;
+        width: 90%;
+    }
+    
+}
+@media screen and  (min-width:1000px){
+    .rutinas{
+        flex-direction: column;
+        width: 100%;
+        max-width: 1100px;
+        margin-left: 0 ;
+        
+
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .rutinas{
+        flex-direction: column;
+        width: 100%;
+        max-width: 1100px;
+        margin-left: 0 ;
+        
+
+    }
+    
+}
