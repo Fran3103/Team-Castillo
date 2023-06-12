@@ -32,13 +32,14 @@
 .ContenedorTitulo{
     width: 100%;
     height: 65px;
-    background-color: aqua;
+    background-color:rebeccapurple;
     border-radius: 0 0 5px 5px;
     overflow: hidden;
 }
 
 .ContenedorTitulo:hover{
     height: 100%;
+    background-color: rgb(147, 83, 211);
 }
 
 .titulo{
